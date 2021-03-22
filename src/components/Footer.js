@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Footer = () => {
   const githubClick = () => {
-    window.location.href = "https://github.com/seonggul?tab=repositories";
+    window.location.href = "https://github.com/seonggul/corona_live";
   };
   return (
     <Container>

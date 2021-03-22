@@ -14,6 +14,7 @@
     "@testing-library/user-event": "^12.1.10",
     "axios": "^0.21.1",
     "chart.js": "^2.9.4",
+    "gh-pages": "^3.1.0",
     "react": "^17.0.1",
     "react-chartjs-2": "^2.11.1",
     "react-dom": "^17.0.1",
@@ -25,7 +26,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -44,5 +46,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "homepage": "https://seonggul.github.io/corona_live/"
 }
